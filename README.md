@@ -75,6 +75,6 @@ Ce projet est sous licence **AGPL-3.0-or-later**
 
 ## 🙏 Remerciements
 * Construit pour [HumHub](https://www.humhub.com/) - Le kit de réseau social open source flexible
-* **Et la superbe communauté francophone sous **: [Communauté HumHub](https://community.humhub.com/)
+* **Et la superbe communauté francophone sous ** : [Communauté HumHub](https://community.humhub.com/)
 
 **Fait avec ❤️ pour la communauté HumHub**
