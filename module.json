@@ -1,0 +1,19 @@
+{
+    "id": "limitsummarymail",
+    "version": "1.5.0",
+    "name": "Limit Summary Mail",
+    "description": "Limit the content length of posts in summary emails",
+    "humhub": {
+        "minVersion": "1.8"
+    },
+    "keywords": ["email", "summary", "truncate", "mail", "notification"],
+    "logo": "module_image.png",
+    "homepage": "",
+    "authors": [
+        {
+            "name": "J.Lasson",
+            "role": "Developer"
+        }
+    ],
+    "license": "AGPL-3.0-or-later"
+}
