@@ -35,7 +35,7 @@ Le module intercepte le rendu des emails de résumé d'activité et traite le co
 * Vérifier que la limite de caractères est correctement définie (1-500)
 
 ## 📝 Structure des fichiers
-limitsummarymail/
+limitsummarymail//
 ├── Module.php                    # Classe principale du module
 ├── config.php                    # Configuration du module
 ├── module.json                   # Métadonnées du module
@@ -75,6 +75,6 @@ Ce projet est sous licence **AGPL-3.0-or-later**
 
 ## 🙏 Remerciements
 * Construit pour [HumHub](https://www.humhub.com/) - Le kit de réseau social open source flexible
-* **Et la superbe communauté francophone sous ** : [Communauté HumHub](https://community.humhub.com/)
+* **Et la superbe communauté francophone sous** : [Communauté HumHub](https://community.humhub.com/)
 
 **Fait avec ❤️ pour la communauté HumHub**
