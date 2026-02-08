@@ -10,7 +10,7 @@ Module HumHub permettant de tronquer le contenu les publications dans les emails
 **HumHub** : Version 1.8 ou supérieure
 
 ## 🚀 Installation
-Télécharger la dernière version packagée ou cloner ce dépôt.
+Télécharger la dernière version release ou cloner ce dépôt.
 Téléverser les fichiers du module dans `protected/modules/limitsummarymail/`
 
 ## ⚙️ Configuration
@@ -35,27 +35,35 @@ Le module intercepte le rendu des emails de résumé d'activité et traite le co
 * Vérifier que la limite de caractères est correctement définie (1-500)
 
 ## 📝 Structure des fichiers
-limitsummarymail//
-├── Module.php                    # Classe principale du module
-├── config.php                    # Configuration du module
-├── module.json                   # Métadonnées du module
-├── Events.php                    # Gestionnaires d'événements
+<pre>
+```
+limitsummarymail/
+├── Module.php
+├── config.php
+├── module.json
+├── Events.php
+├── README.md
+├── LICENSE
 ├── components/
-│   └── MailSummaryProcessor.php  # Logique de traitement HTML
+│   └── MailSummaryProcessor.php
 ├── controllers/
-│   └── AdminController.php       # Contrôleur du panneau d'administration
+│   └── AdminController.php
 ├── models/
-│   └── ConfigureForm.php         # Modèle du formulaire de configuration
+│   └── ConfigureForm.php
 ├── views/
 │   └── admin/
-│       └── index.php             # Vue de configuration
-├── messages/                     # Traductions
+│       └── index.php
+├── messages/
 │   ├── en/
+│   │   └── base.php
 │   └── fr/
+│       └── base.php
 ├── migrations/
-│   └── uninstall.php             # Nettoyage lors de la désinstallation
+│   └── uninstall.php
 └── resources/
-    └── module_image.png          # Icône du module
+    └── module_image.png
+```
+</pre>
 
 ## 🌐 Traductions
 Langues disponibles :
